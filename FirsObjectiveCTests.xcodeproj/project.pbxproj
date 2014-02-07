@@ -22,6 +22,7 @@
 		0C82F12818A54568009D8A7F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C82F10C18A54568009D8A7F /* CoreData.framework */; };
 		0C82F13018A54568009D8A7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C82F12E18A54568009D8A7F /* InfoPlist.strings */; };
 		0C82F13218A54568009D8A7F /* FirsObjectiveCTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82F13118A54568009D8A7F /* FirsObjectiveCTestsTests.m */; };
+		0C82F13D18A545D9009D8A7F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C82F13C18A545D9009D8A7F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0C82F12D18A54568009D8A7F /* FirsObjectiveCTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirsObjectiveCTestsTests-Info.plist"; sourceTree = "<group>"; };
 		0C82F12F18A54568009D8A7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C82F13118A54568009D8A7F /* FirsObjectiveCTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirsObjectiveCTestsTests.m; sourceTree = "<group>"; };
+		0C82F13B18A545D9009D8A7F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0C82F13C18A545D9009D8A7F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				0C82F11D18A54568009D8A7F /* Images.xcassets */,
 				0C82F11A18A54568009D8A7F /* FirsObjectiveCTests.xcdatamodeld */,
 				0C82F10F18A54568009D8A7F /* Supporting Files */,
+				0C82F13B18A545D9009D8A7F /* Person.h */,
+				0C82F13C18A545D9009D8A7F /* Person.m */,
 			);
 			path = FirsObjectiveCTests;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				0C82F11518A54568009D8A7F /* main.m in Sources */,
 				0C82F11C18A54568009D8A7F /* FirsObjectiveCTests.xcdatamodeld in Sources */,
+				0C82F13D18A545D9009D8A7F /* Person.m in Sources */,
 				0C82F11918A54568009D8A7F /* stsAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

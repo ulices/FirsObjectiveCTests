@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#include "Person.h"
 
 @interface stsAppDelegate : UIResponder <UIApplicationDelegate>
 
