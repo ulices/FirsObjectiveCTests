@@ -20,12 +20,18 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     Person *person = [[Person alloc] init];
-    [person setFirstName:@"Ulices" andLastName:@"Barajas"];
-    NSLog(@"The person's _firstName is and _lastName: %@ %@", [person firstName], [person lastName]);
-  
+
+    person.FirstName = @"Ulices";
+    person.LastName =@"Barajas";
+    person.age = 33;
+
+     NSLog(@"HI %@ %@, who is %d years old.", person.firstName,
+           person.lastName, person.age);
+
     return YES;
-    
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

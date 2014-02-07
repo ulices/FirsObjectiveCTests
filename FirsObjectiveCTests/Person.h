@@ -8,14 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject {
-    NSString *_firstName;
-    NSString *_lastName;
-    int _age;
-}
+@interface Person : NSObject
 
-- (NSString *) firstName;
-- (NSString *) lastName;
-- (void) setFirstName:(NSString *)newFirstName andLastName:(NSString
-                                                            *)newLastName;
+@property NSString *firstName;
+@property NSString *lastName;
+@property int age;
+
 @end
