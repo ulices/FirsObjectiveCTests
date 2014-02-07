@@ -27,11 +27,9 @@
     person.LastName =@"Barajas";
     person.age = 33;
 
-     NSLog(@"HI %@ %@, who is %d years old.", person.firstName,
-           person.lastName, person.age);
+    NSLog(@"Hello %@", person);
 
     return YES;
-
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

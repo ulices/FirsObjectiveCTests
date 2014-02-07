@@ -9,15 +9,9 @@
 #import "Person.h"
 
 @implementation Person
-- (NSString *) firstName {
-    return _firstName;
-}
-- (NSString *) lastName {
-    return _lastName;
-}
-- (void) setFirstName:(NSString *)newFirstName andLastName:(NSString
-                                                            *)newLastName{
-    _firstName = newFirstName;
-    _lastName = newLastName;
+- (NSString *) description;
+{
+    return [NSString stringWithFormat:@"%@ %@, who is %d years old.",
+            self.firstName, self.lastName, self.age];
 }
 @end
