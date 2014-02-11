@@ -21,13 +21,17 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
-    Person *person = [[Person alloc] init];
+    Person *ulices = [[Person alloc] init];
 
-    person.FirstName = @"Ulices";
-    person.LastName =@"Barajas";
-    person.age = 33;
+    ulices.FirstName = @"Ulices";
+    ulices.LastName = @"Barajas";
 
-    NSLog(@"Hello %@", person);
+    Person *higgie = [[Person alloc] init];
+    higgie.firstName = @"Mr.";
+    higgie.lastName = @"Higgie";
+    higgie.bestFriend = ulices;
+
+    NSLog(@"Hello %@", ulices);
 
     return YES;
 }
